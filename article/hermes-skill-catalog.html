@@ -687,7 +687,7 @@
     <div class="stat-item"><div class="stat-num">14</div><div class="stat-label">Categories</div></div>
     <div class="stat-item"><div class="stat-num">4</div><div class="stat-label">Sources</div></div>
     <div class="stat-item"><div class="stat-num">71</div><div class="stat-label">Built-in</div></div>
-    <div class="stat-item"><div class="stat-num">59</div><div class="stat-label">Hub</div></div>
+    <div class="stat-item"><div class="stat-num">74</div><div class="stat-label">Hub</div></div>
   </div>
 </div>
 
@@ -731,13 +731,13 @@
     <div class="toc-label">目录</div>
     <div class="toc-list">
       <a class="toc-chip" href="#productivity">日常生产力 <span class="count">21</span></a>
-      <a class="toc-chip" href="#search">搜索与研究 <span class="count">13</span></a>
+      <a class="toc-chip" href="#search">搜索与研究 <span class="count">17</span></a>
       <a class="toc-chip" href="#memory">记忆与上下文 <span class="count">9</span></a>
-      <a class="toc-chip" href="#writing">写作与内容 <span class="count">3</span></a>
-      <a class="toc-chip" href="#developer">开发者工具 <span class="count">22</span></a>
+      <a class="toc-chip" href="#writing">写作与内容 <span class="count">6</span></a>
+      <a class="toc-chip" href="#developer">开发者工具 <span class="count">25</span></a>
       <a class="toc-chip" href="#agents">AI Agent 联动 <span class="count">12</span></a>
-      <a class="toc-chip" href="#automation">任务编排 <span class="count">10</span></a>
-      <a class="toc-chip" href="#creative">创意可视化 <span class="count">16</span></a>
+      <a class="toc-chip" href="#automation">任务编排 <span class="count">13</span></a>
+      <a class="toc-chip" href="#creative">创意可视化 <span class="count">18</span></a>
       <a class="toc-chip" href="#communication">通讯社交 <span class="count">9</span></a>
       <a class="toc-chip" href="#security">安全红队 <span class="count">9</span></a>
       <a class="toc-chip" href="#mlops">ML / MLOps <span class="count">35</span></a>
@@ -798,7 +798,7 @@
 
   <!-- 搜索与研究 -->
   <div class="category" id="search">
-    <div class="category-header"><h2>搜索与研究</h2><span class="count">13 个 Skill</span></div>
+    <div class="category-header"><h2>搜索与研究</h2><span class="count">17 个 Skill</span></div>
     <table class="skill-table">
       <tr data-skill="duckduckgo-search" data-source="hub" data-repo="" data-install="hermes skills install duckduckgo-search" data-desc="通过 DuckDuckGo 搜索引擎查找信息。支持文字、新闻、图片搜索。完全免费，不需要 API key。" data-usage="<p><strong>亮点：</strong>零配置，不需要 API key</p><p><strong>试试说：</strong><code>帮我搜一下最新的 AI 新闻</code></p>">
         <td><div class="skill-name-cell">duckduckgo-search <span class="click-hint">→</span></div></td><td><span class="tag tag-hub">Hub</span></td><td class="skill-desc-cell">免费搜索引擎，文字/新闻/图片</td></tr>
@@ -826,6 +826,14 @@
         <td><div class="skill-name-cell">hermes-web-search-plus <span class="click-hint">→</span><span class="new-badge">NEW</span></div></td><td><span class="tag tag-community">社区</span></td><td class="skill-desc-cell">多搜索引擎智能路由，自动选最优搜索源</td></tr>
       <tr data-skill="not-human-search" data-source="community" data-repo="https://github.com/not-human-search/nhs-skill" data-install="hermes skills install not-human-search/nhs-skill --force" data-desc="发现 8600+ 个 AI 友好网站。专门为 AI Agent 设计的网站索引。" data-usage="<p><strong>试试说：</strong><code>帮我找可以直接给 AI 用的数据源网站</code></p>">
         <td><div class="skill-name-cell">Not Human Search <span class="click-hint">→</span></div></td><td><span class="tag tag-community">社区</span></td><td class="skill-desc-cell">8600+ AI 友好网站发现</td></tr>
+      <tr data-skill="tavily-search" data-source="hub" data-repo="" data-install="hermes skills install tavily-search" data-desc="面向 Agent 的深度联网搜索，适合事实核查、资料收集和竞品研究。" data-usage="<p><strong>适合：</strong>快速调研、事实核查、竞品资料收集</p><p><strong>试试说：</strong><code>用 tavily 查一下最近的 AI 浏览器动态</code></p>">
+        <td><div class="skill-name-cell">tavily-search <span class="click-hint">→</span><span class="new-badge">NEW</span></div></td><td><span class="tag tag-hub">Hub</span></td><td class="skill-desc-cell">深度联网搜索，适合事实核查和资料收集</td></tr>
+      <tr data-skill="exa-research" data-source="hub" data-repo="" data-install="hermes skills install exa-research" data-desc="语义搜索网页和论文，按意图找资料而不是只按关键词。" data-usage="<p><strong>亮点：</strong>语义搜索，适合问题还不够明确时探索资料</p>">
+        <td><div class="skill-name-cell">exa-research <span class="click-hint">→</span><span class="new-badge">NEW</span></div></td><td><span class="tag tag-hub">Hub</span></td><td class="skill-desc-cell">语义搜索网页和论文</td></tr>
+      <tr data-skill="firecrawl-reader" data-source="hub" data-repo="" data-install="hermes skills install firecrawl-reader" data-desc="把复杂网页抓取成干净 Markdown，适合整理文档、博客和产品页。" data-usage="<p><strong>试试说：</strong><code>把这个产品文档抓成 Markdown 摘要</code></p>">
+        <td><div class="skill-name-cell">firecrawl-reader <span class="click-hint">→</span><span class="new-badge">NEW</span></div></td><td><span class="tag tag-hub">Hub</span></td><td class="skill-desc-cell">网页抓取成干净 Markdown</td></tr>
+      <tr data-skill="perplexity-research" data-source="hub" data-repo="" data-install="hermes skills install perplexity-research" data-desc="带引用的研究回答，适合问开放式问题和生成参考资料。" data-usage="<p><strong>适合：</strong>行业概览、技术选型、竞品分析</p>">
+        <td><div class="skill-name-cell">perplexity-research <span class="click-hint">→</span><span class="new-badge">NEW</span></div></td><td><span class="tag tag-hub">Hub</span></td><td class="skill-desc-cell">带引用的研究回答</td></tr>
     </table>
   </div>
 
@@ -856,7 +864,7 @@
 
   <!-- 写作与内容 -->
   <div class="category" id="writing">
-    <div class="category-header"><h2>写作与内容</h2><span class="count">3 个 Skill</span></div>
+    <div class="category-header"><h2>写作与内容</h2><span class="count">6 个 Skill</span></div>
     <table class="skill-table">
       <tr data-skill="avoid-ai-writing" data-source="community" data-repo="https://github.com/conorbronsdon/avoid-ai-writing" data-install="hermes skills install conorbronsdon/avoid-ai-writing --force" data-desc="去除 AI 写作的典型痕迹（如「总而言之」「值得注意的是」等）。让文章读起来更像人写的自然文字。写论文、文案、邮件刚需。" data-usage="<p><strong>亮点：</strong>1200+ ⭐，社区最受欢迎的写作 skill</p><p><strong>适合：</strong>写论文怕被查 AI、写文案要自然感</p><p><strong>注意：</strong>装完后 Hermes 的所有文字输出风格都会改变</p>">
         <td><div class="skill-name-cell">avoid-ai-writing <span class="click-hint">→</span><span class="stars-badge">1.2K ⭐</span></div></td><td><span class="tag tag-community">社区</span></td><td class="skill-desc-cell">去除 AI 写作痕迹，让文章像人写的（写论文/文案刚需）</td></tr>
@@ -864,12 +872,18 @@
         <td><div class="skill-name-cell">litprog-skill <span class="click-hint">→</span><span class="stars-badge">105 ⭐</span></div></td><td><span class="tag tag-community">社区</span></td><td class="skill-desc-cell">文学编程 — 代码和文档编织在一起</td></tr>
       <tr data-skill="autonovel" data-source="official" data-repo="" data-install="hermes skills install autonovel" data-desc="自主小说写作流水线。从大纲到章节到完整小说，自动化整个创作过程。" data-usage="<p><strong>试试说：</strong><code>帮我写一个赛博朋克风格的短篇小说</code></p><p><strong>适合：</strong>网文作者、创意写作爱好者</p>">
         <td><div class="skill-name-cell">autonovel <span class="click-hint">→</span></div></td><td><span class="tag tag-official">官方</span></td><td class="skill-desc-cell">自主小说写作流水线</td></tr>
+      <tr data-skill="prompt-polish" data-source="hub" data-repo="" data-install="hermes skills install prompt-polish" data-desc="把粗糙想法打磨成清晰 Prompt、系统指令和任务说明。" data-usage="<p><strong>试试说：</strong><code>把这段需求改成一个清晰的 system prompt</code></p>">
+        <td><div class="skill-name-cell">prompt-polish <span class="click-hint">→</span><span class="new-badge">NEW</span></div></td><td><span class="tag tag-hub">Hub</span></td><td class="skill-desc-cell">Prompt 和任务说明打磨</td></tr>
+      <tr data-skill="transcript-summarizer" data-source="hub" data-repo="" data-install="hermes skills install transcript-summarizer" data-desc="会议录音或访谈逐字稿整理成摘要、行动项和决策记录。" data-usage="<p><strong>适合：</strong>会议复盘、访谈整理、播客笔记</p>">
+        <td><div class="skill-name-cell">transcript-summarizer <span class="click-hint">→</span><span class="new-badge">NEW</span></div></td><td><span class="tag tag-hub">Hub</span></td><td class="skill-desc-cell">逐字稿摘要和行动项</td></tr>
+      <tr data-skill="newsletter-draft" data-source="hub" data-repo="" data-install="hermes skills install newsletter-draft" data-desc="把资料和链接整理成 newsletter 草稿，自动生成标题和分段。" data-usage="<p><strong>试试说：</strong><code>把这些链接整理成本周 AI newsletter</code></p>">
+        <td><div class="skill-name-cell">newsletter-draft <span class="click-hint">→</span><span class="new-badge">NEW</span></div></td><td><span class="tag tag-hub">Hub</span></td><td class="skill-desc-cell">Newsletter 草稿生成</td></tr>
     </table>
   </div>
 
   <!-- 开发者工具 -->
   <div class="category" id="developer">
-    <div class="category-header"><h2>开发者工具</h2><span class="count">22 个 Skill</span></div>
+    <div class="category-header"><h2>开发者工具</h2><span class="count">25 个 Skill</span></div>
     <table class="skill-table">
       <tr data-skill="github-issues" data-source="builtin" data-repo="" data-install="内置 Skill，无需安装" data-desc="GitHub Issue 管理。创建、查看、评论、关闭 Issue。" data-usage="<p><strong>使用前提：</strong>需要 GitHub 认证（<code>hermes github auth</code>）</p><p><strong>试试说：</strong><code>帮我看看这个 repo 有什么 open issue</code></p>">
         <td><div class="skill-name-cell">github-issues <span class="click-hint">→</span></div></td><td><span class="tag tag-builtin">内置</span></td><td class="skill-desc-cell">管理 GitHub Issue</td></tr>
@@ -915,6 +929,12 @@
         <td><div class="skill-name-cell">webhook-subscriptions <span class="click-hint">→</span></div></td><td><span class="tag tag-builtin">内置</span></td><td class="skill-desc-cell">Webhook 订阅管理</td></tr>
       <tr data-skill="chrome-profiles" data-source="community" data-repo="https://github.com/anpicasso/hermes-plugin-chrome-profiles" data-install="hermes skills install anpicasso/hermes-plugin-chrome-profiles --force" data-desc="通过 Chrome DevTools Protocol (CDP) 在不同 Chrome Profile 之间切换。适合多账号管理场景。" data-usage="<p><strong>适合：</strong>多 Chrome Profile 用户（工作/个人/测试）</p><p><strong>使用前提：</strong>Chrome 需要开启 CDP 远程调试</p>">
         <td><div class="skill-name-cell">chrome-profiles <span class="click-hint">→</span><span class="new-badge">NEW</span></div></td><td><span class="tag tag-community">社区</span></td><td class="skill-desc-cell">通过 CDP 在 Chrome Profile 之间切换浏览器工具</td></tr>
+      <tr data-skill="playwright-e2e" data-source="hub" data-repo="" data-install="hermes skills install playwright-e2e" data-desc="用 Playwright 自动生成、运行和修复端到端测试。" data-usage="<p><strong>试试说：</strong><code>给登录流程写一组 Playwright 测试</code></p>">
+        <td><div class="skill-name-cell">playwright-e2e <span class="click-hint">→</span><span class="new-badge">NEW</span></div></td><td><span class="tag tag-hub">Hub</span></td><td class="skill-desc-cell">Playwright E2E 测试生成</td></tr>
+      <tr data-skill="api-contract-tester" data-source="hub" data-repo="" data-install="hermes skills install api-contract-tester" data-desc="根据 OpenAPI/接口示例生成契约测试和回归用例。" data-usage="<p><strong>适合：</strong>后端 API、SDK、网关兼容性测试</p>">
+        <td><div class="skill-name-cell">api-contract-tester <span class="click-hint">→</span><span class="new-badge">NEW</span></div></td><td><span class="tag tag-hub">Hub</span></td><td class="skill-desc-cell">API 契约测试和回归用例</td></tr>
+      <tr data-skill="dependency-updater" data-source="hub" data-repo="" data-install="hermes skills install dependency-updater" data-desc="依赖升级助手：分析 changelog、风险和迁移步骤。" data-usage="<p><strong>试试说：</strong><code>评估一下把 React 升到最新版的风险</code></p>">
+        <td><div class="skill-name-cell">dependency-updater <span class="click-hint">→</span><span class="new-badge">NEW</span></div></td><td><span class="tag tag-hub">Hub</span></td><td class="skill-desc-cell">依赖升级风险分析</td></tr>
     </table>
   </div>
 
@@ -951,7 +971,7 @@
 
   <!-- 任务编排 -->
   <div class="category" id="automation">
-    <div class="category-header"><h2>任务编排与自动化</h2><span class="count">10 个 Skill</span></div>
+    <div class="category-header"><h2>任务编排与自动化</h2><span class="count">13 个 Skill</span></div>
     <table class="skill-table">
       <tr data-skill="hermes-skill-factory" data-source="community" data-repo="https://github.com/Romanescu11/hermes-skill-factory" data-install="hermes skills install Romanescu11/hermes-skill-factory --force" data-desc="Meta-Skill — 观察你的工作流，自动生成可复用的新 Skill。AI 自己学新技能。" data-usage="<p><strong>亮点：</strong>AI 观察你怎么用，自动提炼成 Skill</p><p><strong>注意：</strong>生成的 Skill 需要人工审核 — 社区说「它总觉得自己做得很好」</p>">
         <td><div class="skill-name-cell">hermes-skill-factory <span class="click-hint">→</span><span class="stars-badge">140 ⭐</span></div></td><td><span class="tag tag-community">社区</span></td><td class="skill-desc-cell">观察工作流，自动生成新 Skill（AI 自己学新技能）</td></tr>
@@ -973,12 +993,18 @@
         <td><div class="skill-name-cell">skill-forge <span class="click-hint">→</span></div></td><td><span class="tag tag-community">社区</span></td><td class="skill-desc-cell">把任意仓库自动转成 Skill</td></tr>
       <tr data-skill="cognify-skills" data-source="community" data-repo="https://github.com/Yarmoluk/cognify-skills" data-install="hermes skills install Yarmoluk/cognify-skills --force" data-desc="19 个商业运营 Skill 套装：CRM 客户管理、发票生成、项目管理、HR 流程等。" data-usage="<p><strong>适合：</strong>小型企业、自由职业者</p><p><strong>包含：</strong>CRM、发票、项目管理、HR 等 19 个模块</p>">
         <td><div class="skill-name-cell">cognify-skills <span class="click-hint">→</span></div></td><td><span class="tag tag-community">社区</span></td><td class="skill-desc-cell">19 个商业运营 Skill（CRM、发票、项目管理）</td></tr>
+      <tr data-skill="daily-standup" data-source="hub" data-repo="" data-install="hermes skills install daily-standup" data-desc="自动收集昨天进展、今天计划和阻塞项，生成站会摘要。" data-usage="<p><strong>试试说：</strong><code>帮我生成今天的 standup</code></p>">
+        <td><div class="skill-name-cell">daily-standup <span class="click-hint">→</span><span class="new-badge">NEW</span></div></td><td><span class="tag tag-hub">Hub</span></td><td class="skill-desc-cell">站会摘要自动生成</td></tr>
+      <tr data-skill="meeting-followup" data-source="hub" data-repo="" data-install="hermes skills install meeting-followup" data-desc="把会议结论转成 owner、deadline、next step 的跟进清单。" data-usage="<p><strong>适合：</strong>项目会议、客户沟通、团队复盘</p>">
+        <td><div class="skill-name-cell">meeting-followup <span class="click-hint">→</span><span class="new-badge">NEW</span></div></td><td><span class="tag tag-hub">Hub</span></td><td class="skill-desc-cell">会议行动项跟进清单</td></tr>
+      <tr data-skill="release-captain" data-source="hub" data-repo="" data-install="hermes skills install release-captain" data-desc="发布前检查清单、变更日志、回滚计划和公告草稿。" data-usage="<p><strong>试试说：</strong><code>帮我准备这个版本的发布清单</code></p>">
+        <td><div class="skill-name-cell">release-captain <span class="click-hint">→</span><span class="new-badge">NEW</span></div></td><td><span class="tag tag-hub">Hub</span></td><td class="skill-desc-cell">发布检查清单和变更日志</td></tr>
     </table>
   </div>
 
   <!-- 创意可视化 -->
   <div class="category" id="creative">
-    <div class="category-header"><h2>创意与可视化</h2><span class="count">16 个 Skill</span></div>
+    <div class="category-header"><h2>创意与可视化</h2><span class="count">18 个 Skill</span></div>
     <table class="skill-table">
       <tr data-skill="excalidraw" data-source="builtin" data-repo="" data-install="内置 Skill，无需安装" data-desc="一句话生成手绘风格的图表和示意图。输出 Excalidraw 格式文件。" data-usage="<p><strong>试试说：</strong><code>帮我画一个系统架构图</code></p><p><strong>风格：</strong>手绘/白板风，非正式但清晰</p>">
         <td><div class="skill-name-cell">excalidraw <span class="click-hint">→</span></div></td><td><span class="tag tag-builtin">内置</span></td><td class="skill-desc-cell">一句话生成手绘风格图表</td></tr>
@@ -1012,6 +1038,10 @@
         <td><div class="skill-name-cell">ideation <span class="click-hint">→</span></div></td><td><span class="tag tag-builtin">内置</span></td><td class="skill-desc-cell">创意头脑风暴</td></tr>
       <tr data-skill="popular-web-designs" data-source="builtin" data-repo="" data-install="内置 Skill，无需安装" data-desc="流行网页设计参考和灵感库。" data-usage="<p><strong>试试说：</strong><code>给我看看最近流行的着陆页设计</code></p>">
         <td><div class="skill-name-cell">popular-web-designs <span class="click-hint">→</span></div></td><td><span class="tag tag-builtin">内置</span></td><td class="skill-desc-cell">流行网页设计参考</td></tr>
+      <tr data-skill="mermaid-diagrams" data-source="hub" data-repo="" data-install="hermes skills install mermaid-diagrams" data-desc="生成 Mermaid 流程图、时序图、架构图和路线图。" data-usage="<p><strong>试试说：</strong><code>用 Mermaid 画一个登录流程时序图</code></p>">
+        <td><div class="skill-name-cell">mermaid-diagrams <span class="click-hint">→</span><span class="new-badge">NEW</span></div></td><td><span class="tag tag-hub">Hub</span></td><td class="skill-desc-cell">Mermaid 图表生成</td></tr>
+      <tr data-skill="screenshot-mockups" data-source="hub" data-repo="" data-install="hermes skills install screenshot-mockups" data-desc="把页面截图整理成产品 mockup、标注图和对比图。" data-usage="<p><strong>适合：</strong>产品经理、设计评审、前端验收</p>">
+        <td><div class="skill-name-cell">screenshot-mockups <span class="click-hint">→</span><span class="new-badge">NEW</span></div></td><td><span class="tag tag-hub">Hub</span></td><td class="skill-desc-cell">截图 mockup 和标注图</td></tr>
     </table>
   </div>
 
