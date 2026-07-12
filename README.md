@@ -119,12 +119,5 @@ open hermes-skill-atlas/article/hermes-skill-cards.html
 | [mbti-personality](https://github.com/codesstar/mbti-personality) | MBTI 人格切换 — 32 种组合 | codesstar/mbti-personality |
 | [next-slide](https://github.com/codesstar/next-slide) | 一句话做 PPT — 26+ 设计风格 | codesstar/next-slide |
 
-### 关注
 
-- **B站**：奇思妙想CYC
-- **GitHub**：[@codesstar](https://github.com/codesstar)
-
-## License
-
-[MIT](LICENSE)
 
